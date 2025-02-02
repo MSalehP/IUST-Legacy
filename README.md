@@ -1,13 +1,18 @@
 # IUST Legacy  
 A collection of my university projects and assignments at IUST.  
-Created and maintained by **Saleh**. 
 
-## 📂 Repository Structure  
-IUST-Legacy/ │── Term-1/ │ ├── Course-1/ │ │ ├── Homework/ │ │ ├── Projects/ │ ├── Course-2/ │── Term-2/
+## 📋 Disclaimer  
+Hey there! 👋  
+These homework and project examples are based on my own experiences. They’re here to help and give you an idea of how things might be done,  
+but **they are definitely not perfect** and may have mistakes.  
+Also, **using these materials doesn’t guarantee any specific grade or score**, so always make sure to follow your course’s guidelines.  
 
-Each term contains courses, and each course contains assignments and projects.  
+## 💬 Need Help?  
+Feel free to reach out to me on Telegram: [@MsalehP](https://t.me/MsalehP) if you have any questions or need clarification!  
 
 ## 💡 How to Use  
-- Browse the folders to find relevant coursework.  
-- Feel free to fork or download materials.  
-- Contributions are welcome!  
+- Browse through the folders to find the relevant coursework.  
+- You’re welcome to fork or download the materials.  
+- Contributions are always welcome! 😊  
+
+🎓 **Good luck, and I hope this helps you on your journey!** 🚀  
