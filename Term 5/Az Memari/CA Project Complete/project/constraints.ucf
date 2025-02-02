@@ -1,0 +1,12 @@
+NET "CLK" LOC = P184;
+NET "CLK" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "PS2_Clock" LOC = P92;
+NET "DATA" LOC = P83;
+NET "output[0]" LOC = P10;
+NET "output[1]" LOC = P7;
+NET "output[2]" LOC = P11;
+NET "output[3]" LOC = P5;
+NET "output[4]" LOC = P4;
+NET "output[5]" LOC = P12;
+NET "output[6]" LOC = P9;
+NET "selseg" LOC = P15;

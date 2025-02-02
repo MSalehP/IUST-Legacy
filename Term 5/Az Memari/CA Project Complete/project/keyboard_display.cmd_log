@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 keyboard_display.ngc keyboard_display.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 keyboard_display.ngc keyboard_display.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o keyboard_display_map.ncd keyboard_display.ngd keyboard_display.pcf 
+par -w -intstyle ise -ol high -t 1 keyboard_display_map.ncd keyboard_display.ncd keyboard_display.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml keyboard_display.twx keyboard_display.ncd -o keyboard_display.twr keyboard_display.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f keyboard_display.ut keyboard_display.ncd 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 keyboard_display.ngc keyboard_display.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o keyboard_display_map.ncd keyboard_display.ngd keyboard_display.pcf 
+par -w -intstyle ise -ol high -t 1 keyboard_display_map.ncd keyboard_display.ncd keyboard_display.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml keyboard_display.twx keyboard_display.ncd -o keyboard_display.twr keyboard_display.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f keyboard_display.ut keyboard_display.ncd 
+xst -intstyle ise -ifn "C:/ca/project/keyboard_display.xst" -ofn "C:/ca/project/keyboard_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 keyboard_display.ngc keyboard_display.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o keyboard_display_map.ncd keyboard_display.ngd keyboard_display.pcf 
+par -w -intstyle ise -ol high -t 1 keyboard_display_map.ncd keyboard_display.ncd keyboard_display.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 keyboard_display.ngc keyboard_display.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o keyboard_display_map.ncd keyboard_display.ngd keyboard_display.pcf 
+par -w -intstyle ise -ol high -t 1 keyboard_display_map.ncd keyboard_display.ncd keyboard_display.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml keyboard_display.twx keyboard_display.ncd -o keyboard_display.twr keyboard_display.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f keyboard_display.ut keyboard_display.ncd 

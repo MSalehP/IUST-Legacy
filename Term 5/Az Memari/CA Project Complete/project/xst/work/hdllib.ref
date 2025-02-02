@@ -1,0 +1,8 @@
+AR main behavioral C:/ca/project/main.vhd sub00/vhpl01 1704003601
+EN ps2_receiver NULL C:/ca/project/main.vhd sub00/vhpl04 1704007506
+AR ps2_receiver behavioral C:/ca/project/main.vhd sub00/vhpl05 1704007507
+EN main NULL C:/ca/project/main.vhd sub00/vhpl00 1704003600
+EN keyboard_display NULL C:/ca/project/main.vhd sub00/vhpl02 1704006050
+AR keyboard_display behavioral C:/ca/project/main.vhd sub00/vhpl03 1704006051
+AR ps2 behavioral C:/ca/project/main.vhd sub00/vhpl07 1704194323
+EN ps2 NULL C:/ca/project/main.vhd sub00/vhpl06 1704194322

@@ -1,0 +1,7 @@
+V3 4
+FL C:/ca/project/main.vhd 2024/01/02.03:18:39 P.20131013
+EN work/PS2 1704194322 FL C:/ca/project/main.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/PS2/Behavioral 1704194323 \
+      FL C:/ca/project/main.vhd EN work/PS2 1704194322
+FL C:/Users/IUST_LAB_4/Desktop/project/main.vhd 2024/01/02.01:38:21 P.20131013

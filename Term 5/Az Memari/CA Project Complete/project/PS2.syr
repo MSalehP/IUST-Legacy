@@ -1,0 +1,498 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: PS2.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PS2.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PS2"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : PS2
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/ca/project/main.vhd" in Library work.
+Entity <ps2> compiled.
+Entity <ps2> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <PS2> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <PS2> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/ca/project/main.vhd" line 41: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <DATA>
+Entity <PS2> analyzed. Unit <PS2> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <PS2>.
+    Related source file is "C:/ca/project/main.vhd".
+    Found 32-bit adder for signal <$add0000>.
+    Found 32-bit adder for signal <$add0001>.
+    Found 20-bit up counter for signal <counter>.
+    Found 32-bit register for signal <counter0>.
+    Found 32-bit adder for signal <counter0$addsub0000> created at line 62.
+    Found 32-bit up counter for signal <cycle>.
+    Found 1-bit register for signal <finish>.
+    Found 1-bit register for signal <flag>.
+    Found 32-bit adder for signal <mux0000$addsub0000>.
+    Found 32-bit adder for signal <mux0001$addsub0000>.
+    Found 32-bit register for signal <one_c>.
+    Found 32-bit adder for signal <one_c$addsub0000> created at line 60.
+    Found 32-bit comparator greater for signal <one_c$cmp_gt0000> created at line 56.
+    Found 32-bit comparator lessequal for signal <one_c$cmp_le0000> created at line 56.
+    Found 1-bit register for signal <PS2_CLK>.
+    Found 20-bit comparator less for signal <PS2_CLK$cmp_lt0000> created at line 29.
+    Found 8-bit register for signal <PS2_DATA_REG>.
+    Found 8-bit register for signal <PS2_DATA_TEMP>.
+    Found 1-bit register for signal <PS2_PARITY>.
+    Found 1-bit register for signal <valid>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  85 D-type flip-flop(s).
+	inferred   6 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <PS2> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 32-bit adder                                          : 6
+# Counters                                             : 2
+ 20-bit up counter                                     : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 16
+ 1-bit register                                        : 13
+ 32-bit register                                       : 2
+ 8-bit register                                        : 1
+# Comparators                                          : 3
+ 20-bit comparator less                                : 1
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1426 - The value init of the FF/Latch flag hinder the constant cleaning in the block PS2.
+   You should achieve better results by setting this init to 1.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 1-bit adder                                           : 2
+ 32-bit adder                                          : 4
+# Counters                                             : 2
+ 20-bit up counter                                     : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 85
+ Flip-Flops                                            : 85
+# Comparators                                          : 3
+ 20-bit comparator less                                : 1
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch flag hinder the constant cleaning in the block PS2.
+   You should achieve better results by setting this init to 1.
+
+Optimizing unit <PS2> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PS2, actual ratio is 3.
+FlipFlop counter0_0 has been replicated 1 time(s)
+FlipFlop counter0_1 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 139
+ Flip-Flops                                            : 139
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : PS2.ngr
+Top Level Output File Name         : PS2
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 523
+#      GND                         : 1
+#      INV                         : 10
+#      LUT1                        : 114
+#      LUT2                        : 41
+#      LUT2_D                      : 6
+#      LUT2_L                      : 2
+#      LUT3                        : 36
+#      LUT3_D                      : 2
+#      LUT4                        : 43
+#      LUT4_D                      : 5
+#      LUT4_L                      : 8
+#      MUXCY                       : 138
+#      VCC                         : 1
+#      XORCY                       : 116
+# FlipFlops/Latches                : 139
+#      FDCE                        : 1
+#      FDE                         : 118
+#      FDR                         : 20
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 1
+#      OBUF                        : 10
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                      142  out of   3584     3%  
+ Number of Slice Flip Flops:            139  out of   7168     1%  
+ Number of 4 input LUTs:                267  out of   7168     3%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    141     8%  
+ Number of GCLKs:                         2  out of      8    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 22    |
+PS2_CLK1                           | BUFG                   | 117   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+finish_and0000(finish_and00001:O)  | NONE(finish)           | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.136ns (Maximum Frequency: 122.905MHz)
+   Minimum input arrival time before clock: 6.115ns
+   Maximum output required time after clock: 6.306ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 5.394ns (frequency: 185.384MHz)
+  Total number of paths / destination ports: 547 / 42
+-------------------------------------------------------------------------
+Delay:               5.394ns (Levels of Logic = 10)
+  Source:            counter_4 (FF)
+  Destination:       counter_0 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: counter_4 to counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.626   1.040  counter_4 (counter_4)
+     LUT2:I0->O            1   0.479   0.000  Mcompar_PS2_CLK_cmp_lt0000_lut<0> (Mcompar_PS2_CLK_cmp_lt0000_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  Mcompar_PS2_CLK_cmp_lt0000_cy<0> (Mcompar_PS2_CLK_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  Mcompar_PS2_CLK_cmp_lt0000_cy<1> (Mcompar_PS2_CLK_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  Mcompar_PS2_CLK_cmp_lt0000_cy<2> (Mcompar_PS2_CLK_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  Mcompar_PS2_CLK_cmp_lt0000_cy<3> (Mcompar_PS2_CLK_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  Mcompar_PS2_CLK_cmp_lt0000_cy<4> (Mcompar_PS2_CLK_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  Mcompar_PS2_CLK_cmp_lt0000_cy<5> (Mcompar_PS2_CLK_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.056   0.000  Mcompar_PS2_CLK_cmp_lt0000_cy<6> (Mcompar_PS2_CLK_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.056   0.000  Mcompar_PS2_CLK_cmp_lt0000_cy<7> (Mcompar_PS2_CLK_cmp_lt0000_cy<7>)
+     MUXCY:CI->O          21   0.246   1.288  Mcompar_PS2_CLK_cmp_lt0000_cy<8> (Mcompar_PS2_CLK_cmp_lt0000_cy<8>)
+     FDR:R                     0.892          counter_0
+    ----------------------------------------
+    Total                      5.394ns (3.066ns logic, 2.328ns route)
+                                       (56.8% logic, 43.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'PS2_CLK1'
+  Clock period: 8.136ns (frequency: 122.905MHz)
+  Total number of paths / destination ports: 12988 / 193
+-------------------------------------------------------------------------
+Delay:               8.136ns (Levels of Logic = 10)
+  Source:            counter0_24 (FF)
+  Destination:       one_c_0 (FF)
+  Source Clock:      PS2_CLK1 rising
+  Destination Clock: PS2_CLK1 rising
+
+  Data Path: counter0_24 to one_c_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.626   1.066  counter0_24 (counter0_24)
+     LUT4:I0->O            1   0.479   0.000  PS2_DATA_TEMP_0_cmp_eq00001_wg_lut<0> (PS2_DATA_TEMP_0_cmp_eq00001_wg_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<0> (PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<1> (PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<2> (PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<3> (PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<4> (PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<5> (PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<5>)
+     MUXCY:CI->O          18   0.265   1.227  PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<6> (PS2_DATA_TEMP_0_cmp_eq00001_wg_cy<6>)
+     LUT4:I3->O            1   0.479   0.704  valid_cmp_eq00001_1 (valid_cmp_eq00001)
+     LUT4:I3->O           32   0.479   1.575  one_c_not00011 (one_c_not0001)
+     FDE:CE                    0.524          one_c_0
+    ----------------------------------------
+    Total                      8.136ns (3.564ns logic, 4.572ns route)
+                                       (43.8% logic, 56.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.409ns (Levels of Logic = 2)
+  Source:            DATA (PAD)
+  Destination:       flag (FF)
+  Destination Clock: CLK rising
+
+  Data Path: DATA to flag
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            15   0.715   1.010  DATA_IBUF (DATA_IBUF)
+     INV:I->O              1   0.479   0.681  DATA_inv1_INV_0 (DATA_inv)
+     FDE:CE                    0.524          flag
+    ----------------------------------------
+    Total                      3.409ns (1.718ns logic, 1.691ns route)
+                                       (50.4% logic, 49.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'PS2_CLK1'
+  Total number of paths / destination ports: 60 / 59
+-------------------------------------------------------------------------
+Offset:              6.115ns (Levels of Logic = 4)
+  Source:            DATA (PAD)
+  Destination:       valid (FF)
+  Destination Clock: PS2_CLK1 rising
+
+  Data Path: DATA to valid
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            15   0.715   1.069  DATA_IBUF (DATA_IBUF)
+     LUT3:I2->O            4   0.479   0.949  valid_and00001 (valid_and0000)
+     LUT4:I1->O            1   0.479   0.740  one_c_not000131_SW0 (N73)
+     LUT4:I2->O            1   0.479   0.681  valid_not000137 (valid_not0001)
+     FDE:CE                    0.524          valid
+    ----------------------------------------
+    Total                      6.115ns (2.676ns logic, 3.439ns route)
+                                       (43.8% logic, 56.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'PS2_CLK1'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              6.216ns (Levels of Logic = 1)
+  Source:            PS2_PARITY (FF)
+  Destination:       p (PAD)
+  Source Clock:      PS2_CLK1 rising
+
+  Data Path: PS2_PARITY to p
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.626   0.681  PS2_PARITY (PS2_PARITY)
+     OBUF:I->O                 4.909          p_OBUF (p)
+    ----------------------------------------
+    Total                      6.216ns (5.535ns logic, 0.681ns route)
+                                       (89.0% logic, 11.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              6.306ns (Levels of Logic = 1)
+  Source:            PS2_CLK (FF)
+  Destination:       PS2_Clock (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: PS2_CLK to PS2_Clock
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.626   0.771  PS2_CLK (PS2_CLK1)
+     OBUF:I->O                 4.909          PS2_Clock_OBUF (PS2_Clock)
+    ----------------------------------------
+    Total                      6.306ns (5.535ns logic, 0.771ns route)
+                                       (87.8% logic, 12.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.39 secs
+ 
+--> 
+
+Total memory usage is 4514608 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

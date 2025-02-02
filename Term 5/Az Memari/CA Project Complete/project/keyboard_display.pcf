@@ -1,0 +1,20 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Dec 31 10:32:15 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "cm" LOCATE = SITE "P92" LEVEL 1;
+PIN cm_pin<0> = BEL "cm" PINNAME PAD;
+PIN "cm_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "dm" LOCATE = SITE "P83" LEVEL 1;
+COMP "led<0>" LOCATE = SITE "P42" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "P43" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "P44" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "P45" LEVEL 1;
+COMP "led<4>" LOCATE = SITE "P46" LEVEL 1;
+COMP "led<5>" LOCATE = SITE "P48" LEVEL 1;
+COMP "led<6>" LOCATE = SITE "P50" LEVEL 1;
+COMP "led<7>" LOCATE = SITE "P51" LEVEL 1;
+NET "cm_BUFGP/IBUFG" BEL "cm_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

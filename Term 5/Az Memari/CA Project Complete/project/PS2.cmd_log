@@ -1,0 +1,137 @@
+xst -intstyle ise -ifn "C:/Users/IUST_LAB_4/Desktop/project/PS2.xst" -ofn "C:/Users/IUST_LAB_4/Desktop/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+xst -intstyle ise -ifn "C:/Users/IUST_LAB_4/Desktop/project/PS2.xst" -ofn "C:/Users/IUST_LAB_4/Desktop/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
+xst -intstyle ise -ifn "C:/ca/project/PS2.xst" -ofn "C:/ca/project/PS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 PS2.ngc PS2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o PS2_map.ncd PS2.ngd PS2.pcf 
+par -w -intstyle ise -ol high -t 1 PS2_map.ncd PS2.ncd PS2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PS2.twx PS2.ncd -o PS2.twr PS2.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f PS2.ut PS2.ncd 
