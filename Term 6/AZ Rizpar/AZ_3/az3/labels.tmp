@@ -1,0 +1,54 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega32</DEVICE>
+ <WORKING_DIR>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\M32DEF.INC</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>15</LINE></MAIN>
+  <TIMER0FUNC><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>167</LINE></TIMER0FUNC>
+  <TIMER1FUNC><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>174</LINE></TIMER1FUNC>
+  <DISPLY><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>56</LINE></DISPLY>
+  <D1><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>66</LINE></D1>
+  <D2><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>72</LINE></D2>
+  <D4><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>75</LINE></D4>
+  <D3><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>81</LINE></D3>
+  <H1><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>84</LINE></H1>
+  <CONVERT><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>124</LINE></CONVERT>
+  <H2><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>93</LINE></H2>
+  <H3><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>102</LINE></H3>
+  <H4><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>111</LINE></H4>
+  <C1><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>129</LINE></C1>
+  <C2><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>133</LINE></C2>
+  <C3><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>137</LINE></C3>
+  <C4><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>141</LINE></C4>
+  <C5><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>145</LINE></C5>
+  <C6><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>149</LINE></C6>
+  <C7><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>153</LINE></C7>
+  <C8><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>157</LINE></C8>
+  <C9><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>161</LINE></C9>
+  <C10><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>164</LINE></C10>
+  <DO><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>172</LINE></DO>
+  <LED><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>180</LINE></LED>
+  <DS1><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>204</LINE></DS1>
+  <DS0><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>187</LINE></DS0>
+  <INCREM><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>196</LINE></INCREM>
+  <GO2><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>201</LINE></GO2>
+  <DECRE><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>212</LINE></DECRE>
+  <GO1><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_3\az3\az3.asm</FILE><LINE>217</LINE></GO1>
+ </LABELS>
+</ASSEMBLER_INFO>

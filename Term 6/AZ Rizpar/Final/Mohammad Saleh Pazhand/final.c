@@ -1,0 +1,159 @@
+// MOHAMMAD SALEH PAZHAND - 400521171
+
+#include <mega32.h>
+
+char code[] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F};
+int CNT;
+
+interrupt[TIM0_COMP] void timer0_comp_isr(void)
+{
+    CNT++;
+    if (CNT == 5)
+    {
+        CNT = 0;
+    }
+}
+
+
+
+
+void main(void)
+{
+    PORTC = 0x00;
+    PORTD = 0xFF;
+    DDRC = 0xFF;
+    DDRA = 0xFF;
+    DDRB = 0x00;
+    PORTB = 0xFF;
+    DDRD = 0x00;
+    TCCR0 = 0x0C;
+    TCNT0 = 0x00;
+    OCR0 = 0x63;
+    TIMSK = 0x12;
+
+#asm("sei")
+
+    while (1)
+    {
+        unsigned int NUM = 0;
+        int REMAINING, INDEX = 0;
+        char RESULTARRAY[5] = {0, 0, 0, 0, 0};
+
+        if (PIND .0 != 1)
+        {
+            NUM += 1;
+        }
+
+        if (PIND .1 != 1)
+        {
+            NUM += 2;
+        }
+
+        if (PIND .2 != 1)
+        {
+            NUM += 4;
+        }
+
+        if (PIND .3 != 1)
+        {
+            NUM += 8;
+        }
+
+        if (PIND .4 != 1)
+        {
+            NUM += 16;
+        }
+
+        if (PIND .5 != 1)
+        {
+            NUM += 32;
+        }
+
+        if (PIND .6 != 1)
+        {
+            NUM += 64;
+        }
+
+        if (PIND .7 != 1)
+        {
+            NUM += 128;
+        }
+        if (PINB .0 != 1)
+        {
+            NUM += 256;
+        }
+
+        if (PINB .1!= 1)
+        {
+            NUM += 512;
+        }
+
+        if (PINB .2 != 1)
+        {
+            NUM += 1024;
+        }
+
+        if (PINB .3 != 1)
+        {
+            NUM += 2048;
+        }
+
+        if (PINB .4 != 1)
+        {
+            NUM += 4096;
+        }
+
+        if (PINB .5 != 1)
+        {
+            NUM += 8192;
+        }
+
+        if (PINB .6 != 1)
+        {
+            NUM += 16384;
+        }
+
+        if (PINB .7 != 1)
+        {
+            NUM += 32768;
+        }
+
+        while (NUM != 0)
+        {
+            REMAINING = NUM % 10;
+
+            RESULTARRAY[INDEX] = REMAINING;
+
+            NUM /= 10;
+
+            INDEX++;
+        }
+
+        if (CNT == 0)
+        {
+            PORTA = 0b01111111;
+            PORTC = code[RESULTARRAY[0]];
+        }
+
+        else if (CNT == 1)
+        {
+            PORTA = 0b10111111;
+            PORTC = code[RESULTARRAY[1]];
+        }
+        else if (CNT == 2)
+        {
+            PORTA = 0b11110111;
+            PORTC = code[RESULTARRAY[2]];
+        }
+        else if (CNT == 3)
+        {
+            PORTA = 0b11111011;
+            PORTC = code[RESULTARRAY[3]];
+        }
+        else if (CNT == 4)
+        {
+            PORTA = 0b11111101;
+            PORTC = code[RESULTARRAY[4]];
+        }
+    }
+}

@@ -1,0 +1,53 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega32</DEVICE>
+ <WORKING_DIR>D:\University documents\Term 6\AZ Rizpar\AZ_2</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m32def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>20</LINE></START>
+  <SHOWER><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>22</LINE></SHOWER>
+  <DISPLAY><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>38</LINE></DISPLAY>
+  <CALCULATE><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>30</LINE></CALCULATE>
+  <DEC_REG1><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>125</LINE></DEC_REG1>
+  <INC_REG1><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>148</LINE></INC_REG1>
+  <CONVERT><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>81</LINE></CONVERT>
+  <DELAY><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>73</LINE></DELAY>
+  <D1><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>74</LINE></D1>
+  <D2><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>75</LINE></D2>
+  <C1><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>86</LINE></C1>
+  <C2><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>90</LINE></C2>
+  <C3><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>94</LINE></C3>
+  <C4><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>98</LINE></C4>
+  <C5><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>102</LINE></C5>
+  <C6><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>106</LINE></C6>
+  <C7><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>110</LINE></C7>
+  <C8><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>114</LINE></C8>
+  <C9><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>118</LINE></C9>
+  <C10><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>121</LINE></C10>
+  <DEC_REG2><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>130</LINE></DEC_REG2>
+  <DEC_REG3><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>136</LINE></DEC_REG3>
+  <DEC_REG4><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>142</LINE></DEC_REG4>
+  <START_DEC_1><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>172</LINE></START_DEC_1>
+  <INC_REG2><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>153</LINE></INC_REG2>
+  <INC_REG3><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>159</LINE></INC_REG3>
+  <INC_REG4><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>165</LINE></INC_REG4>
+  <START_INC_1><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>178</LINE></START_INC_1>
+  <START_DEC><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>186</LINE></START_DEC>
+  <START_INC><FILE>D:\University documents\Term 6\AZ Rizpar\AZ_2\Exercise-2.asm</FILE><LINE>192</LINE></START_INC>
+ </LABELS>
+</ASSEMBLER_INFO>

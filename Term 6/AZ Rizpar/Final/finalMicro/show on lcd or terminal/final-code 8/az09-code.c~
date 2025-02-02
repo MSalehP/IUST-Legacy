@@ -1,0 +1,80 @@
+/*******************************************************
+This program was created by the
+CodeWizardAVR V3.12 Advanced
+Automatic Program Generator
+© Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
+http://www.hpinfotech.com
+
+Project : 
+Version : 
+Date    : 7/19/2020
+Author  : 
+Company : 
+Comments: 
+
+
+Chip type               : ATmega32
+Program type            : Application
+AVR Core Clock frequency: 8.000000 MHz
+Memory model            : Small
+External RAM size       : 0
+Data Stack size         : 512
+*******************************************************/
+
+#include <mega32.h>
+
+// Alphanumeric LCD functions
+#include <alcd.h>
+
+// Declare your global variables here
+
+// Standard Input/Output functions
+#include <stdio.h>
+ unsigned char i,input;
+void main(void)
+{ 
+
+
+lcd_init(16);
+
+while (1)
+      {
+             input = getchar(); 
+             if((input>=97 && input<=122) || (input>=65 && input<=90) )
+             {
+                lcd_putchar(input);
+                putchar(input);
+             }  
+             else if(input=='1')
+             {   
+              lcd_putchar(input);
+                putchar(input);
+             lcd_clear();
+             lcd_gotoxy(0,0);  
+             lcd_puts("Zahra Hosseini");     
+             lcd_gotoxy(0,1);  
+             lcd_puts("Zahra Hosseini");
+             
+             } 
+             else if(input=='2')
+             {   
+              lcd_putchar(input);
+                putchar(input);
+                putchar(0x0a);
+                putchar(0x0d);
+                puts("Zahra Hosseini");
+                putchar(0x0a);
+                putchar(0x0d);
+             }
+              else if(input=='3')
+             {    
+              lcd_putchar(input);
+                putchar(input);
+                lcd_clear();
+             } 
+            
+             } 
+            
+             
+     }        
+                 

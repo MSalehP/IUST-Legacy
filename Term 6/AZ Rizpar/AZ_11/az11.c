@@ -1,0 +1,81 @@
+/*******************************************************
+This program was created by the
+CodeWizardAVR V3.12 Advanced
+Automatic Program Generator
+© Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
+http://www.hpinfotech.com
+
+Project : 
+Version : 
+Date    : 5/21/2024
+Author  : 
+Company : 
+Comments: 
+
+
+Chip type               : ATmega32
+Program type            : Application
+AVR Core Clock frequency: 8.000000 MHz
+Memory model            : Small
+External RAM size       : 0
+Data Stack size         : 512
+*******************************************************/
+
+#include <mega32.h>
+#include <i2c.h>
+#include <ds1307.h>
+#include <alcd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <delay.h>
+
+
+unsigned char* sword1;
+unsigned char* sword2;
+unsigned char* sword3;
+unsigned char* sword4;
+unsigned char* sword5;
+unsigned char* sword6;
+unsigned char _hour, _min, _sec;
+unsigned char week_day, _day,_month,_year;
+
+
+
+void main(void)
+{
+    i2c_init();
+    rtc_init(0,0,0);
+    lcd_init(20);
+                
+    while (1)
+          {        
+          lcd_clear();    
+          lcd_puts("TIME > "); 
+          lcd_gotoxy(0,1);
+          lcd_puts("DATE > "); 
+          rtc_get_time(&_hour,&_min,&_sec);
+          rtc_get_date(&week_day,&_day,&_month,&_year);    
+          lcd_gotoxy(7,0);
+          itoa(_hour,sword1);
+          lcd_puts(sword1); 
+          lcd_putsf(" ");  
+          itoa(_min,sword2);
+          lcd_puts(sword2);
+          lcd_putsf(" ");   
+          itoa(_sec,sword3);
+          lcd_puts(sword3);
+          lcd_gotoxy(7,1);     
+          itoa(_day,sword4);
+          lcd_puts(sword4); 
+          lcd_putsf(" ");  
+          itoa(_month,sword5);
+          lcd_puts(sword5);
+          lcd_putsf(" ");
+          lcd_putsf("20");    
+          itoa(_year,sword6);
+          lcd_puts(sword6);  
+          lcd_gotoxy(0,2);
+          lcd_putsf("IUST");    
+          delay_ms(1000);         
+      }
+}

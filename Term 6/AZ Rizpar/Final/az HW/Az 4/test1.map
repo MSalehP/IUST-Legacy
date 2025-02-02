@@ -1,0 +1,19 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+TensHour                                                          R5           1
+OnesHour                                                          R4           1
+TensMin                                                           R7           1
+OnesMin                                                           R6           1
+TensSec                                                           R9           1
+OnesSec                                                           R8           1
+DP                                                                R11          1
+a                                                                 R10          1

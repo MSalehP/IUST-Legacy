@@ -1,0 +1,139 @@
+/*****************************************************
+This program was produced by the
+CodeWizardAVR V2.05.3 Standard
+Automatic Program Generator
+© Copyright 1998-2011 Pavel Haiduc, HP InfoTech s.r.l.
+http://www.hpinfotech.com
+
+Project : 
+Version : 
+Date    : 7/10/2020
+Author  : Zahra Hosseini
+Comments: 
+
+
+Chip type               : ATmega32
+Program type            : Application
+AVR Core Clock frequency: 8.000000 MHz
+Memory model            : Small
+External RAM size       : 0
+Data Stack size         : 512
+*****************************************************/
+
+#include <mega32.h>
+
+// Alphanumeric LCD functions
+#include <alcd.h>
+#include <delay.h>
+#include <stdlib.h>
+signed char a = 0;
+
+interrupt [EXT_INT0] void ext_int0_isr(void)
+{
+// Place your code here
+if(PORTC.3==0)   
+ {   
+   a=a+1;
+ }
+else
+ {   
+   a=a+10;
+ }
+
+}
+
+
+interrupt [EXT_INT1] void ext_int1_isr(void)
+{
+
+if(PORTC.3==0)   
+ {   
+   a=a-1;
+ }
+else
+ {   
+   a=a-10;
+ }
+
+}
+interrupt [EXT_INT2] void ext_int2_isr(void)
+{
+// Place your code here
+PORTC = PORTC ^ (1<<3);
+}
+
+
+void main(void)
+{
+// Declare your local variables here
+char *str;
+
+PORTA=0x00;
+DDRA=0x00;
+
+PORTB=0x00;
+DDRB=0x00;
+
+PORTC=0x00;
+DDRC=0x08;
+
+PORTD=0x00;
+DDRD=0x00;
+
+TCCR0=0x00;
+TCNT0=0x00;
+OCR0=0x00;
+
+TCCR1A=0x00;
+TCCR1B=0x00;
+TCNT1H=0x00;
+TCNT1L=0x00;
+ICR1H=0x00;
+ICR1L=0x00;
+OCR1AH=0x00;
+OCR1AL=0x00;
+OCR1BH=0x00;
+OCR1BL=0x00;
+
+ASSR=0x00;
+TCCR2=0x00;
+TCNT2=0x00;
+OCR2=0x00;
+
+GICR|=0xE0;
+MCUCR=0x0A;
+MCUCSR=0x00;
+GIFR=0xE0;
+
+TIMSK=0x00;
+
+UCSRB=0x00;
+
+
+ACSR=0x80;
+SFIOR=0x00;
+
+ADCSRA=0x00;
+
+SPCR=0x00;
+
+
+TWCR=0x00;
+
+
+lcd_init(16);
+
+// Global enable interrupts
+#asm("sei")
+
+while (1)
+      {
+      // Place your code here
+       lcd_gotoxy(0,0);
+      itoa(a,str);                                                                                      
+      lcd_puts(str);
+      lcd_putchar(' ');
+      lcd_putchar(' ');
+      delay_ms(50);
+      }
+}

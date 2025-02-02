@@ -1,0 +1,29 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+idx2                                                                              0x0260       2
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+a                                                                                 R5           1
+counter1                                                                          R4           1
+counter2                                                                          R7           1
+counter3                                                                          R6           1
+counter4                                                                          R9           1
+counter5                                                                          R8           1
+counter6                                                                          R11          1
+idx                                                                               R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+number                                                                            0x00068     52
+set_number                                                                        0x0009C     65
+timer0_comp_isr                                                                   0x000DD     88
+main                                                                              0x00135     82
+getchar                                                                           0x00187      4

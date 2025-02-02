@@ -1,0 +1,10 @@
+VERSION:3 SOURCE_TIMESTAMP:58261171
+NODE:I LEVEL:0 LINE:1 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:2 "C:\cvavr\inc\delay.h"
+NODE:I LEVEL:0 LINE:3 "C:\cvavr\inc\stdio.h"
+NODE:V LEVEL:0 LINE:8 "a -> R5"
+NODE:V LEVEL:0 LINE:9 "count -> R6,R7"
+NODE:V LEVEL:0 LINE:11 "numbers_array -> RAM:????"
+NODE:F LEVEL:0 LINE:20 "number(unsigned char digit)"
+NODE:F LEVEL:0 LINE:53 "set_number(unsigned char c)"
+NODE:F LEVEL:0 LINE:86 "main(void)"

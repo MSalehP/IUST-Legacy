@@ -1,0 +1,47 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+sword6                                                                            0x0270       2
+_hour                                                                             0x0272       1
+_min                                                                              0x0273       1
+_sec                                                                              0x0274       1
+week_day                                                                          0x0275       1
+_day                                                                              0x0276       1
+_month                                                                            0x0277       1
+_year                                                                             0x0278       1
+_base_y                                                                           0x0279       4
+_lcd_x                                                                            0x027D       1
+_lcd_y                                                                            0x027E       1
+_lcd_maxx                                                                         0x027F       1
+_seed                                                                             0x0280       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+sword1                                                                            R4,R5        2
+sword2                                                                            R6,R7        2
+sword3                                                                            R8,R9        2
+sword4                                                                            R10,R11      2
+sword5                                                                            R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x00080    140
+rtc_init                                                                          0x0010C     25
+rtc_get_time                                                                      0x00125     25
+rtc_get_date                                                                      0x0013E     27
+_lcd_write_nibble_G101                                                            0x00159     20
+_lcd_write_data                                                                   0x0016D     12
+lcd_gotoxy                                                                        0x00179     17
+lcd_clear                                                                         0x0018A     14
+lcd_putchar                                                                       0x00198     32
+lcd_puts                                                                          0x001B8     15
+lcd_putsf                                                                         0x001C7     19
+lcd_init                                                                          0x001DA     47
+itoa                                                                              0x00209     46
+bcd2bin                                                                           0x00237     13

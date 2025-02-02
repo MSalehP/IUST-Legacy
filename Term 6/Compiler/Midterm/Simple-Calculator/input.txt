@@ -1,0 +1,8 @@
+int add ( int a )
+begin
+a = 2
+return 1
+end
+
+a = 3* 5
+y = -3++5

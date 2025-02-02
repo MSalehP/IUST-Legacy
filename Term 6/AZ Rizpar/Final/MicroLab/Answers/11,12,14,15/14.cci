@@ -1,0 +1,12 @@
+VERSION:3 SOURCE_TIMESTAMP:58260773
+NODE:I LEVEL:0 LINE:1 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:2 "C:\cvavr\inc\stdio.h"
+NODE:I LEVEL:0 LINE:3 "C:\cvavr\inc\delay.h"
+NODE:I LEVEL:0 LINE:4 "C:\cvavr\inc\stdbool.h"
+NODE:V LEVEL:0 LINE:9 "switchNumber -> R4,R5"
+NODE:V LEVEL:0 LINE:10 "counter -> R7"
+NODE:V LEVEL:0 LINE:11 "hex -> RAM:????"
+NODE:V LEVEL:0 LINE:12 "HEXNUMBERS -> RAM:????"
+NODE:F LEVEL:0 LINE:14 "main(void)"
+NODE:F LEVEL:0 LINE:131 "make_hex(int switchNumber)"
+NODE:F LEVEL:0 LINE:145 "usart_send_string(unsigned char * str)"

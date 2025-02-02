@@ -1,0 +1,13 @@
+VERSION:3 SOURCE_TIMESTAMP:582661C9
+NODE:I LEVEL:0 LINE:1 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:4 "C:\cvavr\inc\alcd.h"
+NODE:V LEVEL:0 LINE:8 "hour -> R5"
+NODE:V LEVEL:0 LINE:10 "minute -> R4"
+NODE:V LEVEL:0 LINE:12 "second -> R7"
+NODE:V LEVEL:0 LINE:14 "decisecond -> R6"
+NODE:V LEVEL:0 LINE:16 "is_started -> R8,R9"
+NODE:F LEVEL:0 LINE:18 "get_time(void)"
+NODE:F LEVEL:0 LINE:46 "ext_int1_isr(void)"
+NODE:F LEVEL:0 LINE:56 "ext_int0_isr(void)"
+NODE:F LEVEL:0 LINE:69 "timer1_compa_isr(void)"
+NODE:F LEVEL:0 LINE:76 "main(void)"

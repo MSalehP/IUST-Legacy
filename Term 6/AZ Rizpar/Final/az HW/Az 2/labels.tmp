@@ -1,0 +1,50 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega32</DEVICE>
+ <WORKING_DIR>D:\University\Microprocessor lab\second\lab2</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:\Program Files\AvrStudio\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:\Program Files\AvrStudio\AvrAssembler2\Appnotes\m32def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\University\Microprocessor lab\second\lab2\lab2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\University\Microprocessor lab\second\lab2\lab2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\University\Microprocessor lab\second\lab2\lab2.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <DISPLY><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>26</LINE></DISPLY>
+  <D1><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>39</LINE></D1>
+  <D2><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>46</LINE></D2>
+  <D4><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>51</LINE></D4>
+  <D3><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>58</LINE></D3>
+  <H><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>60</LINE></H>
+  <CONVERT><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>175</LINE></CONVERT>
+  <DELAY><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>158</LINE></DELAY>
+  <DS1><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>136</LINE></DS1>
+  <DS0><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>109</LINE></DS0>
+  <INCREM><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>116</LINE></INCREM>
+  <GO2><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>121</LINE></GO2>
+  <DECRE><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>143</LINE></DECRE>
+  <GO1><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>148</LINE></GO1>
+  <LO1><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>159</LINE></LO1>
+  <LO2><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>160</LINE></LO2>
+  <LO3><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>161</LINE></LO3>
+  <C1><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>180</LINE></C1>
+  <C2><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>184</LINE></C2>
+  <C3><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>188</LINE></C3>
+  <C4><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>192</LINE></C4>
+  <C5><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>196</LINE></C5>
+  <C6><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>200</LINE></C6>
+  <C7><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>204</LINE></C7>
+  <C8><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>208</LINE></C8>
+  <C9><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>212</LINE></C9>
+  <C10><FILE>D:\University\Microprocessor lab\second\lab2\lab2.asm</FILE><LINE>215</LINE></C10>
+ </LABELS>
+</ASSEMBLER_INFO>

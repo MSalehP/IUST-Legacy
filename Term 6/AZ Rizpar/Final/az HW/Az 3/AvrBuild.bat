@@ -1,0 +1,2 @@
+@ECHO OFF
+"D:\Program Files\AvrStudio\AvrAssembler2\avrasm2.exe" -S "D:\University\Microprocessor lab\second\H\H\labels.tmp" -fI -W+ie -C V2E -o "D:\University\Microprocessor lab\second\H\H\eee.hex" -d "D:\University\Microprocessor lab\second\H\H\eee.obj" -e "D:\University\Microprocessor lab\second\H\H\eee.eep" -m "D:\University\Microprocessor lab\second\H\H\eee.map" "D:\University\Microprocessor lab\second\H\H\eee.asm"

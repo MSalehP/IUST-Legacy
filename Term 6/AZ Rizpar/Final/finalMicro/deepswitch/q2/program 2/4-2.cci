@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:58258F7A
+NODE:I LEVEL:0 LINE:24 "C:\cvavreval\inc\mega32.h"
+NODE:V LEVEL:0 LINE:27 "counter -> R5"
+NODE:V LEVEL:0 LINE:28 "code -> RAM:????"
+NODE:V LEVEL:0 LINE:29 "dip_switch_val -> R4"
+NODE:F LEVEL:0 LINE:32 "timer0_ovf_isr(void)"
+NODE:F LEVEL:0 LINE:65 "main(void)"

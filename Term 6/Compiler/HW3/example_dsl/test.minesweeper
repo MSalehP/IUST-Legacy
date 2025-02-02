@@ -1,0 +1,7 @@
+output: console
+hint: True
+game: 6 X 50
+bomb: 1 , 2
+bomb: 4 , 6
+bomb: 5 , 9
+bomb: 5 , 8

@@ -1,0 +1,44 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+flag3                                                                             0x0277       2
+flag4                                                                             0x0279       2
+result                                                                            0x027B      20
+num                                                                               0x028F      20
+i                                                                                 0x02A3       2
+digits                                                                            0x02A5       2
+res                                                                               0x02A7       2
+output                                                                            0x02A9      11
+_base_y                                                                           0x02B4       4
+_lcd_x                                                                            0x02B8       1
+_lcd_y                                                                            0x02B9       1
+_lcd_maxx                                                                         0x02BA       1
+_seed                                                                             0x02BB       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+key_res                                                                           R5           1
+operand                                                                           R6,R7        2
+equal                                                                             R8,R9        2
+op                                                                                R4           1
+flag1                                                                             R10,R11      2
+flag2                                                                             R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x00094     73
+Calculator_G000                                                                   0x000DD    295
+keypad_scan                                                                       0x00204     85
+_lcd_write_nibble_G100                                                            0x00259     20
+_lcd_write_data                                                                   0x0026D     12
+lcd_gotoxy                                                                        0x00279     17
+lcd_clear                                                                         0x0028A     14
+lcd_putchar                                                                       0x00298     32
+lcd_puts                                                                          0x002B8     17
+lcd_init                                                                          0x002C9     47

@@ -1,0 +1,27 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+second_2                                                                          0x0260       2
+dot                                                                               0x0262       1
+counter                                                                           0x0263       2
+number                                                                            0x0265      10
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+hour_1                                                                            R4,R5        2
+hour_2                                                                            R6,R7        2
+minute_1                                                                          R8,R9        2
+minute_2                                                                          R10,R11      2
+second_1                                                                          R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+timer0_comp_isr                                                                   0x0006C     28
+timer1_compa_isr                                                                  0x00088    107
+main                                                                              0x000F3    121

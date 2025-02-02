@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:5825B44A
+NODE:I LEVEL:0 LINE:3 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:4 "C:\cvavr\inc\delay.h"
+NODE:V LEVEL:0 LINE:6 "code -> RAM:????"
+NODE:V LEVEL:0 LINE:7 "counter -> R4,R5"
+NODE:F LEVEL:0 LINE:10 "timer0_comp_isr(void)"
+NODE:F LEVEL:0 LINE:21 "main(void)"

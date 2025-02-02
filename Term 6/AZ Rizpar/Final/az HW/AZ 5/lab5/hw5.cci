@@ -1,0 +1,5 @@
+VERSION:3 SOURCE_TIMESTAMP:50E9AE35
+NODE:I LEVEL:0 LINE:24 "D:\Program Files\inc\mega32.h"
+NODE:I LEVEL:0 LINE:25 "D:\Program Files\inc\delay.h"
+NODE:C LEVEL:0 LINE:28 "image_code -> RAM:????"
+NODE:F LEVEL:0 LINE:110 "main(void)"

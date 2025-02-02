@@ -1,0 +1,9 @@
+VERSION:3 SOURCE_TIMESTAMP:50EA8ED3
+NODE:I LEVEL:0 LINE:24 "D:\Program Files\CodeVision\inc\mega32.h"
+NODE:I LEVEL:0 LINE:25 "D:\Program Files\CodeVision\inc\delay.h"
+NODE:I LEVEL:0 LINE:27 "D:\Program Files\CodeVision\inc\alcd.h"
+NODE:I LEVEL:0 LINE:30 "D:\Program Files\CodeVision\inc\stdio.h"
+NODE:V LEVEL:0 LINE:31 "i -> R5"
+NODE:V LEVEL:0 LINE:31 "input -> R4"
+NODE:F LEVEL:0 LINE:34 "main(void)"
+NODE:F LEVEL:0 LINE:169 "usart_send_string(unsigned char input)"

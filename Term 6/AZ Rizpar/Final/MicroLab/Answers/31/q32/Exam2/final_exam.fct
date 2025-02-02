@@ -1,0 +1,2 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"final_exam.c" LINE:40
+timer1_ovf_isr DSTACK_USAGE:8 DSTACK_LEVEL:8 FILE:"final_exam.c" LINE:24
