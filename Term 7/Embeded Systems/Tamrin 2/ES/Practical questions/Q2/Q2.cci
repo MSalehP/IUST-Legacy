@@ -1,0 +1,9 @@
+VERSION:3 SOURCE_TIMESTAMP:59797ED2
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavr\inc\stdio.h"
+NODE:I LEVEL:0 LINE:26 "C:\cvavr\inc\delay.h"
+NODE:V LEVEL:0 LINE:29 "ms_count -> RAM:????"
+NODE:F LEVEL:0 LINE:31 "timer0_comp_isr(void)"
+NODE:F LEVEL:0 LINE:36 "delay_1ms(void)"
+NODE:F LEVEL:0 LINE:50 "delay_xms(unsigned int x)"
+NODE:F LEVEL:0 LINE:58 "main(void)"

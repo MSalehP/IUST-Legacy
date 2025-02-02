@@ -1,0 +1,83 @@
+/*******************************************************
+This program was created by the
+CodeWizardAVR V3.12 Advanced
+Automatic Program Generator
+© Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
+http://www.hpinfotech.com
+
+Project :
+Version :
+Date    : 11/25/2024
+Author  :
+Company :
+Comments:
+
+
+Chip type               : ATmega32
+Program type            : Application
+AVR Core Clock frequency: 8.000000 MHz
+Memory model            : Small
+External RAM size       : 0
+Data Stack size         : 512
+*******************************************************/
+
+#include <mega32.h>
+#include <stdio.h>
+#include <delay.h>
+
+// Declare your global variables here
+volatile unsigned int ms_count = 0;
+// Timer 0 output compare interrupt service routine
+interrupt[TIM0_COMP] void timer0_comp_isr(void)
+{
+    // Place your code here
+    ms_count++;
+}
+void delay_1ms()
+{
+    TCCR0 = (0 << WGM00) | (0 << COM01) | (0 << COM00) | (1 << WGM01) | (0 << CS02) | (1 << CS01) | (1 << CS00);
+    TCNT0 = 0x00;
+    OCR0 = 0xF9;
+
+    ms_count = 0;
+    TIMSK |= (1 << OCIE0);
+    while (ms_count == 0)
+        ;
+    TCCR0 = 0;
+    TIMSK &= ~(1 << OCIE0);
+}
+
+void delay_xms(unsigned int x)
+{
+    unsigned int i = 0;
+    for (i = 0; i < x; i++)
+    {
+        delay_1ms();
+    }
+}
+void main(void)
+{
+    DDRA = (0 << DDA7) | (0 << DDA6) | (0 << DDA5) | (0 << DDA4) | (0 << DDA3) | (0 << DDA2) | (0 << DDA1) | (1 << DDA0);
+    PORTA = (0 << PORTA7) | (0 << PORTA6) | (0 << PORTA5) | (0 << PORTA4) | (0 << PORTA3) | (0 << PORTA2) | (0 << PORTA1) | (0 << PORTA0);
+
+    // Timer/Counter 0 initialization
+    // Clock source: System Clock
+    // Clock value: 250.000 kHz
+    // Mode: CTC top=OCR0
+    // OC0 output: Disconnected
+    // Timer Period: 1 ms
+    TCCR0 = (0 << WGM00) | (0 << COM01) | (0 << COM00) | (1 << WGM01) | (0 << CS02) | (1 << CS01) | (1 << CS00);
+    TCNT0 = 0x00;
+    OCR0 = 0xF9;
+
+// Global enable interrupts
+#asm("sei")
+
+    while (1)
+    {
+        PORTA |= (1 << PORTA0);
+        delay_xms(50);
+        PORTA &= ~(1 << PORTA0);
+        delay_ms(50);
+    }
+}
