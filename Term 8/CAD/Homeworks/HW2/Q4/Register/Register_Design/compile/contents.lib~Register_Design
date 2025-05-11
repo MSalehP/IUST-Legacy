@@ -1,0 +1,5 @@
+1
+~E 1 "../src/register.vhd" 25 axf_register
+~A 1 "../src/register.vhd" 35 Behavioral
+~E 1 "../src/register_tb.vhd" 25 axf_register_tb
+~A 1 "../src/register_tb.vhd" 28 Behavioral

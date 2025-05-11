@@ -1,0 +1,5 @@
+4
+~E 1 "../src/decoder.vhd" 24 decoder_2to4
+~A 1 "../src/decoder.vhd" 34 Behavioral
+~E 1 "../src/decoder_tb.vhd" 26 tb_decoder_2to4
+~A 1 "../src/decoder_tb.vhd" 29 Behavioral

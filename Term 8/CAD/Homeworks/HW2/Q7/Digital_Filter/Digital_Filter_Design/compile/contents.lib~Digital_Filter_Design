@@ -1,0 +1,5 @@
+3
+~E 1 "../src/DigitalFilter.vhd" 25 DigitalFilter
+~A 1 "../src/DigitalFilter.vhd" 44 Behavioral
+~E 1 "../src/DigitalFilter_TB.vhd" 25 DigitalFilter_TB
+~A 1 "../src/DigitalFilter_TB.vhd" 28 Behavioral

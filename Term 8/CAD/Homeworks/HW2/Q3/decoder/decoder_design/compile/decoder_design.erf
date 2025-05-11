@@ -1,0 +1,8 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/decoder.vhd" 
+MESSAGE "Compile Entity "decoder_2to4"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "decoder_2to4"" 
+MESSAGE "File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/decoder_tb.vhd" 
+MESSAGE "Compile Entity "tb_decoder_2to4"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "tb_decoder_2to4"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]" 

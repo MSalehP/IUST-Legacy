@@ -1,0 +1,137 @@
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+tb_bit_processor tb_bit_processor Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6469 kB (elbread=427 elab2=5903 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\IUST Legacy\IUST-Legacy\Term 8\CAD\Homeworks\HW2\Q5\BitProcessor\BitProcessorDesign\src\wave.asdb
+#  1:25 AM, Friday, May 2, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q5/BitProcessor/BitProcessorDesign/src/wave.asdb'.
+# add wave -noreg {/tb_bit_processor/input_vec}
+# add wave -noreg {/tb_bit_processor/shifted_output}
+# add wave -noreg {/tb_bit_processor/output_rotated}
+# add wave -noreg {/tb_bit_processor/zero_is}
+# add wave -noreg {/tb_bit_processor/time_event_last}
+# VSIM: 5 object(s) traced.
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+run 10 ns
+# KERNEL: stopped at time: 20 ns
+run 10 ns
+# KERNEL: stopped at time: 30 ns
+run 10 ns
+# KERNEL: stopped at time: 40 ns
+run 10 ns
+# EXECUTION:: NOTE   : All tests completed successfully!
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /tb_bit_processor,  Process: stim_proc.
+# RUNTIME: Info: RUNTIME_0141 bit_processor_tb.vhd (100): stop called.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /tb_bit_processor,  Process: stim_proc.
+# KERNEL: stopped at time: 50 ns
+run 10 ns
+# KERNEL: stopped at time: 60 ns
+# Waveform file 'D:/IUSTLegacy/IUST-Legacy/Term8/CAD/Homeworks/HW2/Q5/BitProcessor/BitProcessorDesign/src/testb.awc' connected to 'D:/IUSTLegacy/IUST-Legacy/Term8/CAD/Homeworks/HW2/Q5/BitProcessor/BitProcessorDesign/src/testb.asdb'.
+# Adding file D:\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q5\BitProcessor\BitProcessorDesign\src\testb.asdb ... Done
+# Adding file D:\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q5\BitProcessor\BitProcessorDesign\src\testb.awc ... Done
+acom -O3 -e 100 -work BitProcessorDesign -2002  $dsn/src/bit_processor.vhd $dsn/src/bit_processor_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q5/BitProcessor/BitProcessorDesign/src/bit_processor.vhd
+# Compile Entity "bit_processor"
+# Compile Architecture "Behavioral" of Entity "bit_processor"
+# File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q5/BitProcessor/BitProcessorDesign/src/bit_processor_tb.vhd
+# Compile Entity "tb_bit_processor"
+# Compile Architecture "Behavioral" of Entity "tb_bit_processor"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+tb_bit_processor tb_bit_processor Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6469 kB (elbread=427 elab2=5903 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\IUST Legacy\IUST-Legacy\Term 8\CAD\Homeworks\HW2\Q5\BitProcessor\BitProcessorDesign\src\wave.asdb
+#  1:50 AM, Friday, May 2, 2025
+#  Simulation has been initialized
+# add wave -noreg {/tb_bit_processor/input_vec}
+# add wave -noreg {/tb_bit_processor/shifted_output}
+# add wave -noreg {/tb_bit_processor/output_rotated}
+# add wave -noreg {/tb_bit_processor/zero_is}
+# add wave -noreg {/tb_bit_processor/time_event_last}
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+tb_bit_processor tb_bit_processor Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6469 kB (elbread=427 elab2=5903 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\IUST Legacy\IUST-Legacy\Term 8\CAD\Homeworks\HW2\Q5\BitProcessor\BitProcessorDesign\src\wave.asdb
+#  1:51 AM, Friday, May 2, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/IUSTLegacy/IUST-Legacy/Term8/CAD/Homeworks/HW2/Q5/BitProcessor/BitProcessorDesign/src/testb.asdb'.
+# Waveform file 'untitled.awc' connected to 'D:/IUSTLegacy/IUST-Legacy/Term8/CAD/Homeworks/HW2/Q5/BitProcessor/BitProcessorDesign/src/testb.asdb'.
+# Waveform file 'D:/IUSTLegacy/IUST-Legacy/Term8/CAD/Homeworks/HW2/Q5/BitProcessor/BitProcessorDesign/src/testb.awc' connected to 'D:/IUSTLegacy/IUST-Legacy/Term8/CAD/Homeworks/HW2/Q5/BitProcessor/BitProcessorDesign/src/testb.asdb'.
+# add wave -noreg {/tb_bit_processor/input_vec}
+# add wave -noreg {/tb_bit_processor/shifted_output}
+# add wave -noreg {/tb_bit_processor/output_rotated}
+# add wave -noreg {/tb_bit_processor/zero_is}
+# add wave -noreg {/tb_bit_processor/time_event_last}
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q5/BitProcessor/BitProcessorDesign/src/wave.asdb'.
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+run 10 ns
+# KERNEL: stopped at time: 20 ns
+run 10 ns
+# KERNEL: stopped at time: 30 ns
+run 10 ns
+# KERNEL: stopped at time: 40 ns
+run 10 ns
+# EXECUTION:: NOTE   : All tests completed successfully!
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /tb_bit_processor,  Process: stim_proc.
+# RUNTIME: Info: RUNTIME_0141 bit_processor_tb.vhd (100): stop called.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /tb_bit_processor,  Process: stim_proc.
+# KERNEL: stopped at time: 50 ns
+run 10 ns
+# KERNEL: stopped at time: 60 ns
+endsim
+# VSIM: Simulation has finished.

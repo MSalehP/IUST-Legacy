@@ -1,0 +1,5 @@
+5
+~E 1 "../src/bit_processor.vhd" 25 bit_processor
+~A 1 "../src/bit_processor.vhd" 35 Behavioral
+~E 1 "../src/bit_processor_tb.vhd" 26 tb_bit_processor
+~A 1 "../src/bit_processor_tb.vhd" 29 Behavioral

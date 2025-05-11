@@ -1,0 +1,72 @@
+timestamp=1746199809030
+
+[~A]
+ModifyID=6
+Version=74
+
+[~MFT]
+0=16|0Digital_Timer_Design.mgf|19762|8509
+1=4|1Digital_Timer_Design.mgf|21446|13223
+3=4|3Digital_Timer_Design.mgf|12411|7471
+
+[digital_timer]
+A/behavioral=A/Behavioral 21|../src/DigitalTimer.vhd|39|1*19307
+BinW64/behavioral=3*10619
+I=0*15049
+I/behavioral=I/Behavioral 0*18299
+M=11|2|vef|1746199316050|../src/DigitalTimer.vhd|0*14527*0x1c5e1b445bc2d5fa6b64e8ff08c6b5c0d8e5bdbb|0*14959*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1746199808942|../src/DigitalTimer.vhd|0*17073*0xbceb86ddc305550b7a074e5b4e42df7eabf11b26|0*18195*0x20116f55b147878295aeff36dce7fc50
+R=../src/DigitalTimer.vhd|25
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|a88fa92d514189ad8146166eb82f3286cc1978757467ca3cdae9f3e696529d12a3aae28795c6ad2a93439ff80f776360
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4ea2304e69f3721aaae48b3fae4ba6d7c
+
+[digitaltimer]
+A/behavioral=A/Behavioral 21|../src/DigitalTimer.vhd|38|1*0
+BinW64/behavioral=3*0
+I=0*711
+I/behavioral=I/Behavioral 0*2395
+M=11|2|vef|1746194766029|../src/DigitalTimer.vhd|0*236*0xe217fc3dc691654463cff43b666a666da5457d5e|0*622*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1746194766032|../src/DigitalTimer.vhd|0*957*0x8044c9e4ba1144e09e0d9fc530621dd32cd29604|0*2292*0x20116f55b147878295aeff36dce7fc50
+R=../src/DigitalTimer.vhd|25
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|a2e6b3f1c36ebce40e958476e41a0bd8e2d4803aea3ab8f82457c01051182e6d7fbf9f625785bb585aa3b55ba48b0643
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff47f2d6b6917ce130d3fee55b0d17014a5
+
+[digitaltimer_tb]
+A/behavioral=A/Behavioral 21|../src/DigitalTimer_TB.vhd|28|1*2563
+BinW64/behavioral=3*1972
+I=0*3102
+I/behavioral=I/Behavioral 0*4379
+M=11|2|vef|1746194766107|../src/DigitalTimer_TB.vhd|0*2788*0x886045baed7de5fe7c348ce5bf4f4ad6f0d71d1c|0*3007*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1746194766116|../src/DigitalTimer_TB.vhd|0*3351*0x4ca0abf6c2c1329ec9bb137610c51fa05fde3def|0*4270*0x20116f55b147878295aeff36dce7fc50
+R=../src/DigitalTimer_TB.vhd|25
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|cd794cd59e70b060d169a59e715ebedb96c31b207dfbd50a7767cd3916db0b3ac77e5b1065e058ac817534ac544ff2d2
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff49ee3018fa94e762d8874523ad2a51fe1
+
+[tb_digital_timer]
+A/behavior=21|../src/DigitalTimer_TB.vhd|29|1*13334
+BinW64/behavior=3*7523
+I=0*11921
+I/behavior=0*13943
+M=11|2|vef|1746199118599|../src/DigitalTimer_TB.vhd|0*11566*0x74643d8e83200968ebb1dd60a07b695bee2b17fe|0*11825*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavior=21|2|vef|1746199143914|../src/DigitalTimer_TB.vhd|0*12211*0xeabe3156057cf8e3117262d833e4af7bcc7dbbd1|0*13200*0x20116f55b147878295aeff36dce7fc50
+R=../src/DigitalTimer_TB.vhd|26
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|343907effda8e98a858ffe6804ac6e77781e56f93834619c53365526ebf6395c7e332506814d4c6b363278182ec6e44c
+Version/behavior=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fc3dd0001280a512267df68f1a525475d
+
+[timer_tb]
+A/behavioral=A/Behavioral 21|../src/DigitalTimer_TB.vhd|28|1*21446
+BinW64/behavioral=3*12411
+I=0*7589
+I/behavioral=I/Behavioral 0*19762
+M=11|2|vef|1746196161546|../src/DigitalTimer_TB.vhd|0*7303*0x635519a91f54a0bb17ad5613e156d7dd8b016c7f|0*7501*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1746199808997|../src/DigitalTimer_TB.vhd|0*18557*0xdaea9f98a3c11a05cb0fa3f2b8f21b40848b3b1b|0*19660*0x20116f55b147878295aeff36dce7fc50
+R=../src/DigitalTimer_TB.vhd|25
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|fbebf6e39cc8394f8fe8faa5637603f00602192bf13219adeebae6c40f906a05f6ee8ae7e439cf1b4d3a4cf9ec77e0c2
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff457824eb79793ef1fe8ad20f86ed7ae93
+
+[~U]
+digital_timer=11|0*14280|
+digitaltimer=DigitalTimer 11|0*0|
+digitaltimer_tb=DigitalTimer_TB 11|0*2652|
+tb_digital_timer=11|0*11428|
+timer_tb=11|0*7181|

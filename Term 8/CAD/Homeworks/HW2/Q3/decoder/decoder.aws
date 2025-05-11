@@ -1,0 +1,12 @@
+[Version]
+Version=13.0
+[Designs]
+decoder_design=.\decoder_design\decoder_design.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+decoder_design=1

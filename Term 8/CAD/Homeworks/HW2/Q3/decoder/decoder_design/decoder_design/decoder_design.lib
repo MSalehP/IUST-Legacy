@@ -1,0 +1,36 @@
+timestamp=1746104737723
+
+[~A]
+ModifyID=4
+Version=74
+
+[~MFT]
+0=10|0decoder_design.mgf|6350|2850
+1=4|1decoder_design.mgf|11478|9825
+3=4|3decoder_design.mgf|4909|4156
+
+[decoder_2to4]
+A/behavioral=A/Behavioral 21|../src/decoder.vhd|34|1*9825
+BinW64/behavioral=3*4156
+I=0*592
+I/behavioral=I/Behavioral 0*6133
+M=11|2|vef|1746103605884|../src/decoder.vhd|0*227*0x92949bff06faaedec84caf028dd5d253c7396114|0*508*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1746104737654|../src/decoder.vhd|0*5471*0x368cb6593c19f389e02544fa9e7bfe9c36a49869|0*6035*0x20116f55b147878295aeff36dce7fc50
+R=../src/decoder.vhd|24
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|87748dc8ccba7c62037e3209b340de4da48295ef8315118939ba3e149c0160adf0bcebaa6116722aa8c204cf09409513
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff45fa2a81c5f181ba54f02a433da6cf75a
+
+[tb_decoder_2to4]
+A/behavioral=A/Behavioral 21|../src/decoder_tb.vhd|29|1*11478
+BinW64/behavioral=3*4909
+I=0*2024
+I/behavioral=I/Behavioral 0*6350
+M=11|2|vef|1746103605963|../src/decoder_tb.vhd|0*1683*0xfc4ae8b1b39dfd7c2ad38f1776f1608283145170|0*1934*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1746104737710|../src/decoder_tb.vhd|0*2313*0x018644c88045abb7a69c3e726a701959c3d623d5|0*3266*0x20116f55b147878295aeff36dce7fc50
+R=../src/decoder_tb.vhd|26
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|126d616fda9d4ad69f305d3b23ad887daf85ade8a65e34aee0764e2b81db763f977e0eb5f864228874211d0624ad175e
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4e9ae6f38188b26e0301c925a9738932a
+
+[~U]
+decoder_2to4=11|0*0|
+tb_decoder_2to4=11|0*1547|

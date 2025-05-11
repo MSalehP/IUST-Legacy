@@ -1,0 +1,36 @@
+timestamp=1746014272170
+
+[~A]
+ModifyID=2
+Version=74
+
+[~MFT]
+0=7|0Digital_Timer_Design.mgf|4081|0
+1=1|1Digital_Timer_Design.mgf|2134|0
+3=1|3Digital_Timer_Design.mgf|1373|0
+
+[digital_timer]
+A/behavioral=A/Behavioral 21|../src/digital_timer.vhd|35|1*0
+BinW64/behavioral=3*0
+I=0*691
+I/behavioral=I/Behavioral 0*2027
+M=11|2|vef|1746014267281|../src/digital_timer.vhd|0*233*0x3333bea74411fa80bc18742c3e2e0b277c7804d0|0*600*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1746014267283|../src/digital_timer.vhd|0*938*0x85f721fa1611dcdfc8674ea702a164b44e567fa3|0*1922*0x20116f55b147878295aeff36dce7fc50
+R=../src/digital_timer.vhd|25
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|a88fa92d514189ad8146166eb82f3286cc1978757467ca3cdae9f3e696529d121bff0001027cb4c08b8e5576122a3086
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4bea003eb7c64eee2532fd60a4f5c6406
+
+[digital_timer_tb]
+A/behavioral=A/Behavioral 21|../src/digital_timer_tb.vhd|28|1*2134
+BinW64/behavioral=3*1373
+I=0*2743
+I/behavioral=I/Behavioral 0*4081
+M=11|2|vef|1746014272123|../src/digital_timer_tb.vhd|0*2423*0xb0d8f8f314fba5d2e98081cb807bbc768756ec5d|0*2646*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1746014272131|../src/digital_timer_tb.vhd|0*2993*0xad7e04e336fd0aa76d0a23a32a16a8dbc2c93b79|0*3970*0x20116f55b147878295aeff36dce7fc50
+R=../src/digital_timer_tb.vhd|25
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|a88fa92d514189ad8146166eb82f32862046d89dd3d1f75a20e399995a9402146ef5290497db752e78d088e37dd58d5d
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4f2da45aad86939b30d19a9946387a258
+
+[~U]
+digital_timer=11|0*0|
+digital_timer_tb=11|0*2285|

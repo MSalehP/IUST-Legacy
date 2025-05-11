@@ -1,0 +1,5 @@
+2
+~E 1 "../src/digital_timer.vhd" 25 digital_timer
+~A 1 "../src/digital_timer.vhd" 35 Behavioral
+~E 1 "../src/digital_timer_tb.vhd" 25 digital_timer_tb
+~A 1 "../src/digital_timer_tb.vhd" 28 Behavioral

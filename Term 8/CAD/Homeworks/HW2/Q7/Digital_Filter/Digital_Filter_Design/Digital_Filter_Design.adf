@@ -1,0 +1,32 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Digital_Filter_Design
+[Library]
+Digital_Filter_Design=.\Digital_Filter_Design\Digital_Filter_Design.lib
+[$LibMap$]
+Digital_Filter_Design=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/DigitalFilter.vhd=-1
+/DigitalFilter_TB.vhd=-1
+/..\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q7\Digital_Filter\Digital_Filter_Design\src\testb.asdb=-1
+/..\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q7\Digital_Filter\Digital_Filter_Design\src\testb.awc=-1
+[Files.Data]
+.\src\DigitalFilter.vhd=VHDL Source Code
+.\src\DigitalFilter_TB.vhd=VHDL Source Code
+.\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q7\Digital_Filter\Digital_Filter_Design\src\testb.asdb=Accelerated Waveform File
+.\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q7\Digital_Filter\Digital_Filter_Design\src\testb.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=digitalfilter_tb|Behavioral|0
+ShowHide=ShowTopLevel
+Selected=

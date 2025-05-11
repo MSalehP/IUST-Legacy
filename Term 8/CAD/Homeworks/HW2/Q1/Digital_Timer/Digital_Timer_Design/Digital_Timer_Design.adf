@@ -1,0 +1,32 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Digital_Timer_Design
+[Library]
+Digital_Timer_Design=.\Digital_Timer_Design\Digital_Timer_Design.lib
+[$LibMap$]
+Digital_Timer_Design=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/digital_timer.vhd=-1
+/digital_timer_tb.vhd=-1
+/..\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q1\Digital_Timer\Digital_Timer_Design\src\testb1.asdb=-1
+/..\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q1\Digital_Timer\Digital_Timer_Design\src\testb1.awc=-1
+[Files.Data]
+.\src\digital_timer.vhd=VHDL Source Code
+.\src\digital_timer_tb.vhd=VHDL Source Code
+.\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q1\Digital_Timer\Digital_Timer_Design\src\testb1.asdb=Accelerated Waveform File
+.\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q1\Digital_Timer\Digital_Timer_Design\src\testb1.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=digital_timer|Behavioral|0 digital_timer_tb|Behavioral|0
+ShowHide=ShowTopLevel
+Selected=

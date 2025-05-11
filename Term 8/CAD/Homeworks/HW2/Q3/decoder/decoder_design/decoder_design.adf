@@ -1,0 +1,32 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=decoder_design
+[Library]
+decoder_design=.\decoder_design\decoder_design.lib
+[$LibMap$]
+decoder_design=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/decoder.vhd=-1
+/decoder_tb.vhd=-1
+/..\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q3\decoder\decoder_design\src\testb.asdb=-1
+/..\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q3\decoder\decoder_design\src\testb.awc=-1
+[Files.Data]
+.\src\decoder.vhd=VHDL Source Code
+.\src\decoder_tb.vhd=VHDL Source Code
+.\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q3\decoder\decoder_design\src\testb.asdb=Accelerated Waveform File
+.\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q3\decoder\decoder_design\src\testb.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=tb_decoder_2to4|Behavioral|0
+ShowHide=ShowTopLevel
+Selected=

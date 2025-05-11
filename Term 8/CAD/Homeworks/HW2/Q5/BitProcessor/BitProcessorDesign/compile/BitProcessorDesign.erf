@@ -1,0 +1,8 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q5/BitProcessor/BitProcessorDesign/src/bit_processor.vhd" 
+MESSAGE "Compile Entity "bit_processor"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "bit_processor"" 
+MESSAGE "File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q5/BitProcessor/BitProcessorDesign/src/bit_processor_tb.vhd" 
+MESSAGE "Compile Entity "tb_bit_processor"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "tb_bit_processor"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]" 

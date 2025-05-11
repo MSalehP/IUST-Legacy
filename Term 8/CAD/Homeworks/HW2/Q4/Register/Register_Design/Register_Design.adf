@@ -1,0 +1,32 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Register_Design
+[Library]
+Register_Design=.\Register_Design\Register_Design.lib
+[$LibMap$]
+Register_Design=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/register.vhd=-1
+/register_tb.vhd=-1
+/..\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q4\Register\Register_Design\src\testb.asdb=-1
+/..\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q4\Register\Register_Design\src\testb.awc=-1
+[Files.Data]
+.\src\register.vhd=VHDL Source Code
+.\src\register_tb.vhd=VHDL Source Code
+.\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q4\Register\Register_Design\src\testb.asdb=Accelerated Waveform File
+.\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q4\Register\Register_Design\src\testb.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=axf_register_tb|Behavioral|0
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q1/Digital_Timer/Digital_Timer_Design/src/digital_timer_tb.vhd" 
+MESSAGE "Compile Entity "digital_timer_tb"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "digital_timer_tb"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

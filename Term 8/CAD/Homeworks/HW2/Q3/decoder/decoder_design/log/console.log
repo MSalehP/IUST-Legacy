@@ -1,0 +1,355 @@
+# Design: Design decoder_design already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work decoder_design -2002  $dsn/src/decoder.vhd $dsn/src/decoder_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/decoder.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "Behavioral" of Entity "decoder_2to4"
+# File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/decoder_tb.vhd
+# Compile Entity "tb_decoder_2to4"
+# Compile Architecture "Behavioral" of Entity "tb_decoder_2to4"
+# Top-level unit(s) detected:
+# Entity => tb_decoder_2to4
+# Error: COMP96_0016: decoder.vhd : (44, 16): Design unit declaration expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work decoder_design -2002  $dsn/src/decoder.vhd $dsn/src/decoder_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/decoder.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "Behavioral" of Entity "decoder_2to4"
+# File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/decoder_tb.vhd
+# Compile Entity "tb_decoder_2to4"
+# Compile Architecture "Behavioral" of Entity "tb_decoder_2to4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+tb_decoder_2to4 tb_decoder_2to4 Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6426 kB (elbread=427 elab2=5860 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\IUST Legacy\IUST-Legacy\Term 8\CAD\Homeworks\HW2\Q3\decoder\decoder_design\src\wave.asdb
+#  4:21 PM, Thursday, May 1, 2025
+#  Simulation has been initialized
+# add wave -noreg {/tb_decoder_2to4/A}
+# add wave -noreg {/tb_decoder_2to4/B}
+# add wave -noreg {/tb_decoder_2to4/enable}
+# add wave -noreg {/tb_decoder_2to4/Y0}
+# add wave -noreg {/tb_decoder_2to4/Y1}
+# add wave -noreg {/tb_decoder_2to4/Y2}
+# add wave -noreg {/tb_decoder_2to4/Y3}
+# add wave -noreg {/tb_decoder_2to4/DELAY_DEFAULT}
+# add wave -noreg {/tb_decoder_2to4/DELAY_CUSTOM}
+# VSIM: 9 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/wave.asdb'.
+run 1 s
+# KERNEL: stopped at time: 1 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 2 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 3 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 4 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 5 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 6 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 7 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 8 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 9 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 10 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 11 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 12 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 13 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 14 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 15 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 16 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 17 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 18 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 19 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 20 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 21 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 1 s
+# KERNEL: stopped at time: 22 sec
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+tb_decoder_2to4 tb_decoder_2to4 Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6426 kB (elbread=427 elab2=5860 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\IUST Legacy\IUST-Legacy\Term 8\CAD\Homeworks\HW2\Q3\decoder\decoder_design\src\wave.asdb
+#  4:25 PM, Thursday, May 1, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/wave.asdb'.
+# add wave -noreg {/tb_decoder_2to4/A}
+# add wave -noreg {/tb_decoder_2to4/B}
+# add wave -noreg {/tb_decoder_2to4/enable}
+# add wave -noreg {/tb_decoder_2to4/Y0}
+# add wave -noreg {/tb_decoder_2to4/Y1}
+# add wave -noreg {/tb_decoder_2to4/Y2}
+# add wave -noreg {/tb_decoder_2to4/Y3}
+# add wave -noreg {/tb_decoder_2to4/DELAY_DEFAULT}
+# add wave -noreg {/tb_decoder_2to4/DELAY_CUSTOM}
+# VSIM: 9 object(s) traced.
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+run 10 ns
+# KERNEL: stopped at time: 20 ns
+run 10 ns
+# KERNEL: stopped at time: 30 ns
+run 10 ns
+# KERNEL: stopped at time: 40 ns
+run 10 ns
+# KERNEL: stopped at time: 50 ns
+run 10 ns
+# KERNEL: stopped at time: 60 ns
+run 10 ns
+# KERNEL: stopped at time: 70 ns
+run 10 ns
+# KERNEL: stopped at time: 80 ns
+run 10 ns
+# KERNEL: stopped at time: 90 ns
+run 10 ns
+# KERNEL: stopped at time: 100 ns
+run 10 ns
+# KERNEL: stopped at time: 110 ns
+run 10 ns
+# KERNEL: stopped at time: 120 ns
+run 10 ns
+# KERNEL: stopped at time: 130 ns
+run 10 ns
+# KERNEL: stopped at time: 140 ns
+run 10 ns
+# KERNEL: stopped at time: 150 ns
+run 10 ns
+# KERNEL: stopped at time: 160 ns
+run 10 ns
+# KERNEL: stopped at time: 170 ns
+run 10 ns
+# KERNEL: stopped at time: 180 ns
+run 10 ns
+# KERNEL: stopped at time: 190 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 210 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 220 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 230 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work decoder_design -2002  $dsn/src/decoder.vhd $dsn/src/decoder_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/decoder.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "Behavioral" of Entity "decoder_2to4"
+# File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/decoder_tb.vhd
+# Compile Entity "tb_decoder_2to4"
+# Compile Architecture "Behavioral" of Entity "tb_decoder_2to4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim -O5 +access +r +m+tb_decoder_2to4 tb_decoder_2to4 Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6427 kB (elbread=427 elab2=5861 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\IUST Legacy\IUST-Legacy\Term 8\CAD\Homeworks\HW2\Q3\decoder\decoder_design\src\wave.asdb
+#  4:33 PM, Thursday, May 1, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/wave.asdb'.
+# add wave -noreg {/tb_decoder_2to4/A}
+# add wave -noreg {/tb_decoder_2to4/B}
+# add wave -noreg {/tb_decoder_2to4/enable}
+# add wave -noreg {/tb_decoder_2to4/Y0}
+# add wave -noreg {/tb_decoder_2to4/Y1}
+# add wave -noreg {/tb_decoder_2to4/Y2}
+# add wave -noreg {/tb_decoder_2to4/Y3}
+# add wave -noreg {/tb_decoder_2to4/DELAY_DEFAULT}
+# add wave -noreg {/tb_decoder_2to4/DELAY_CUSTOM}
+# VSIM: 9 object(s) traced.
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+run 20 ns
+# KERNEL: stopped at time: 40 ns
+run 20 ns
+# KERNEL: stopped at time: 60 ns
+run 20 ns
+# KERNEL: stopped at time: 80 ns
+run 20 ns
+# KERNEL: stopped at time: 100 ns
+run 20 ns
+# KERNEL: stopped at time: 120 ns
+run 20 ns
+# KERNEL: stopped at time: 140 ns
+run 20 ns
+# KERNEL: stopped at time: 160 ns
+run 20 ns
+# KERNEL: stopped at time: 180 ns
+run 20 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 20 ns
+# KERNEL: stopped at time: 220 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 20 ns
+# KERNEL: stopped at time: 240 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work decoder_design -2002  $dsn/src/decoder.vhd $dsn/src/decoder_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/decoder.vhd
+# Compile Entity "decoder_2to4"
+# Compile Architecture "Behavioral" of Entity "decoder_2to4"
+# File: D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/decoder_tb.vhd
+# Compile Entity "tb_decoder_2to4"
+# Compile Architecture "Behavioral" of Entity "tb_decoder_2to4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+tb_decoder_2to4 tb_decoder_2to4 Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6427 kB (elbread=427 elab2=5861 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\IUST Legacy\IUST-Legacy\Term 8\CAD\Homeworks\HW2\Q3\decoder\decoder_design\src\wave.asdb
+#  4:35 PM, Thursday, May 1, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/IUST Legacy/IUST-Legacy/Term 8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/wave.asdb'.
+# add wave -noreg {/tb_decoder_2to4/A}
+# add wave -noreg {/tb_decoder_2to4/B}
+# add wave -noreg {/tb_decoder_2to4/enable}
+# add wave -noreg {/tb_decoder_2to4/Y0}
+# add wave -noreg {/tb_decoder_2to4/Y1}
+# add wave -noreg {/tb_decoder_2to4/Y2}
+# add wave -noreg {/tb_decoder_2to4/Y3}
+# add wave -noreg {/tb_decoder_2to4/DELAY_DEFAULT}
+# add wave -noreg {/tb_decoder_2to4/DELAY_CUSTOM}
+# VSIM: 9 object(s) traced.
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+run 20 ns
+# KERNEL: stopped at time: 40 ns
+run 20 ns
+# KERNEL: stopped at time: 60 ns
+run 20 ns
+# KERNEL: stopped at time: 80 ns
+run 20 ns
+# KERNEL: stopped at time: 100 ns
+run 20 ns
+# KERNEL: stopped at time: 120 ns
+run 20 ns
+# KERNEL: stopped at time: 140 ns
+run 20 ns
+# KERNEL: stopped at time: 160 ns
+run 20 ns
+# KERNEL: stopped at time: 180 ns
+run 20 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 20 ns
+# KERNEL: stopped at time: 220 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 20 ns
+# KERNEL: stopped at time: 240 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'D:/IUSTLegacy/IUST-Legacy/Term8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/testb.awc' connected to 'D:/IUSTLegacy/IUST-Legacy/Term8/CAD/Homeworks/HW2/Q3/decoder/decoder_design/src/testb.asdb'.
+# Adding file D:\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q3\decoder\decoder_design\src\testb.asdb ... Done
+# Adding file D:\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q3\decoder\decoder_design\src\testb.awc ... Done
+endsim
+# VSIM: Simulation has finished.

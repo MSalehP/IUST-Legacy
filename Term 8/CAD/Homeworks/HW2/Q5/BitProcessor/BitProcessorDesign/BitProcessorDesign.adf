@@ -1,0 +1,32 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=BitProcessorDesign
+[Library]
+BitProcessorDesign=.\BitProcessorDesign\BitProcessorDesign.lib
+[$LibMap$]
+BitProcessorDesign=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/bit_processor.vhd=-1
+/bit_processor_tb.vhd=-1
+/..\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q5\BitProcessor\BitProcessorDesign\src\testb.asdb=-1
+/..\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q5\BitProcessor\BitProcessorDesign\src\testb.awc=-1
+[Files.Data]
+.\src\bit_processor.vhd=VHDL Source Code
+.\src\bit_processor_tb.vhd=VHDL Source Code
+.\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q5\BitProcessor\BitProcessorDesign\src\testb.asdb=Accelerated Waveform File
+.\..\..\..\..\..\..\..\..\..\IUSTLegacy\IUST-Legacy\Term8\CAD\Homeworks\HW2\Q5\BitProcessor\BitProcessorDesign\src\testb.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=tb_bit_processor|Behavioral|0
+ShowHide=ShowTopLevel
+Selected=

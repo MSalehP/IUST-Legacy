@@ -1,0 +1,36 @@
+timestamp=1746202206795
+
+[~A]
+ModifyID=3
+Version=74
+
+[~MFT]
+0=4|0Digital_Filter_Design.mgf|6557|862
+1=4|1Digital_Filter_Design.mgf|9808|6924
+3=4|3Digital_Filter_Design.mgf|7250|4626
+
+[digitalfilter]
+A/behavioral=A/Behavioral 21|../src/DigitalFilter.vhd|44|1*6924
+BinW64/behavioral=3*4626
+I=0*959
+I/behavioral=I/Behavioral 0*6299
+M=11|2|vef|1746201786083|../src/DigitalFilter.vhd|0*276*0xa75a73b9fcaf6a878ffe368494d00b9c78f57d82|0*868*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1746202206738|../src/DigitalFilter.vhd|0*4193*0xd3b3ee3f1a9130ca939f5030ca77255a0f13f31d|0*5634*0x20116f55b147878295aeff36dce7fc50
+R=../src/DigitalFilter.vhd|25
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|798c22c961f4faeca016cd4b27bcd28743bbd5fc8e2ca8e9149ea9a950be5585e86468dd3c425c33d66a633b3fb3d0e0
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4bb41d29723d13f0c6d0d867476dace23
+
+[digitalfilter_tb]
+A/behavioral=A/Behavioral 21|../src/DigitalFilter_TB.vhd|28|1*9808
+BinW64/behavioral=3*7250
+I=0*1664
+I/behavioral=I/Behavioral 0*6557
+M=11|2|vef|1746201786117|../src/DigitalFilter_TB.vhd|0*1344*0x3a262c944da73c029cbacf7034d01960fe158a72|0*1567*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1746202206780|../src/DigitalFilter_TB.vhd|0*1914*0x0e2034404e150a050376a9b473035c19819893e0|0*3780*0x20116f55b147878295aeff36dce7fc50
+R=../src/DigitalFilter_TB.vhd|25
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|798c22c961f4faeca016cd4b27bcd28710b3d587010419c29c19e8c2859f009d7e709b20fd629d7f5469da46cf2dca46
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4f3f6c4126a4627ebc89067ec2e204083
+
+[~U]
+digitalfilter=DigitalFilter 11|0*0|
+digitalfilter_tb=DigitalFilter_TB 11|0*1206|

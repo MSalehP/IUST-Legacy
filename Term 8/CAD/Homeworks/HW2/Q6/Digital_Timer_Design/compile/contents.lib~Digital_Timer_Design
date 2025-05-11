@@ -1,0 +1,11 @@
+6
+~E 1 "../src/DigitalTimer.vhd" 25 digital_timer
+~A 1 "../src/DigitalTimer.vhd" 39 Behavioral
+~E 1 "../src/DigitalTimer.vhd" 25 DigitalTimer
+~A 1 "../src/DigitalTimer.vhd" 38 Behavioral
+~E 1 "../src/DigitalTimer_TB.vhd" 25 DigitalTimer_TB
+~A 1 "../src/DigitalTimer_TB.vhd" 28 Behavioral
+~E 1 "../src/DigitalTimer_TB.vhd" 26 tb_digital_timer
+~A 1 "../src/DigitalTimer_TB.vhd" 29 behavior
+~E 1 "../src/DigitalTimer_TB.vhd" 25 timer_tb
+~A 1 "../src/DigitalTimer_TB.vhd" 28 Behavioral
